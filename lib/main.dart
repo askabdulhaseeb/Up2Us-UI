@@ -30,6 +30,7 @@ class MyApp extends StatelessWidget {
         primaryColorBrightness: Brightness.dark,
       ),
       home: SplashScreen(),
+      // routes for all the screens
       routes: {
         SplashScreen.routeName: (ctx) => SplashScreen(),
         SigninScreen.routeName: (ctx) => SigninScreen(),
